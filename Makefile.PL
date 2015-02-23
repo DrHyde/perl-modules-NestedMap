@@ -3,8 +3,9 @@ WriteMakefile(
 		NAME	=> 'NestedMap',
     META_MERGE => {
         license => 'other',
-        resource => {
-	    repository => 'https://github.com/DrHyde/perl-modules-NestedMap'
+        resources => {
+	    repository => 'https://github.com/DrHyde/perl-modules-NestedMap',
+	    bugtracker => 'https://github.com/DrHyde/perl-modules-NestedMap/issues'
         }
     },
 		VERSION => '1.0',
