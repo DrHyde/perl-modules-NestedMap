@@ -2,7 +2,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
 		NAME	=> 'NestedMap',
     META_MERGE => {
-        license => 'other',
+        license => 'open_source',
         resources => {
 	    repository => 'https://github.com/DrHyde/perl-modules-NestedMap',
 	    bugtracker => 'https://github.com/DrHyde/perl-modules-NestedMap/issues'
